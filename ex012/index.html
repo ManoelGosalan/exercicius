@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carregando Videos</title>
+  </head>
+  <body>
+    <h1>Inserindo Videos Hospedados Localmente</h1>
+    <p>Este video esta hospedado no meu proprio servidor</p>
+    <video
+      poster="image/Sem Título-1.png"
+      src="videos/Animeamv.mp4"
+      width="560"
+      height="315"
+      controls
+    ></video>
+    <source src="videos/Animeamv.mp4" type="video/mp4" />
+    <source src="videos/Animeamv.mkv" type="video/mkv" />
+    <source src="videos/Animeamv.webm" type="video/webm" />
+    <p>
+      seu navegador não reproduz este video, mude de navegador para reproduzir
+    </p>
+    <h1>Inserindo videos do youtube</h1>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/3MJ7qHHFZjI"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+    <h1>Aqui temos um video da viemo</h1>
+    <p>
+      É Sempre melho usar a viemo pois não ira aprecer outros videos de
+      concorrentes por exemplo, e já integrado na vm temos a opção de <strong>responsive</strong>.
+    </p>
+    <p></p>
+    <div style="padding: 56.25% 0 0 0; position: relative">
+      <iframe
+        src="https://player.vimeo.com/video/490188555?h=60c64be5ba"
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+        frameborder="0"
+        allow="autoplay; fullscreen; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <script src="https://player.vimeo.com/api/player.js"></script>
+  </body>
+</html>

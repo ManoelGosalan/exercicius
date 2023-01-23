@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Links</title>
+    <style>
+      /* SELETORES PERSONALIZADOS
+      
+      # == id
+      . == class
+      : == pseudo - class
+      :: == pseudo - elemente
+      > == clildren == Filho
+    */
+      body {
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-size: 32px;
+      }
+      .especial {
+        background-color: chocolate;
+      }
+
+      a {
+        color: red;
+        text-decoration-line: none;
+        font-weight: bold;
+      }
+      a:visited {
+        color: rgb(0, 46, 139);
+      }
+      a:hover {
+        color: black;
+        text-decoration: underline;
+      }
+      a:active {
+        color: rgb(223, 184, 12);
+      }
+      a.especial::after {
+        content: "⇚";
+        text-decoration: none;
+        font-weight: bolder;
+        color: rgb(223, 184, 12);
+      }
+      a.especial::before {
+        content: "⇛";
+        font-weight: bolder;
+        color: rgb(223, 184, 12);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Personalizando links</h1>
+    <ul>
+      <li>
+        <a
+          href="https://www.youtube.com/watch?v=SRhgRUWxi28"
+          target="_blanck"
+          rel="external"
+          class="especial"
+          >Musica preferida youtube atualmente</a
+        >
+      </li>
+      <li>
+        <a href="https://youtu.be/6CXJ61UaDhE" target="_blank" rel="external"
+          >Segunda preferida</a
+        >
+      </li>
+      <li>
+        <a href="https://youtu.be/MFEyH5YmCNs" target="_blank" rel="external"
+          >Terceira preferida</a
+        >
+      </li>
+    </ul>
+  </body>
+</html>

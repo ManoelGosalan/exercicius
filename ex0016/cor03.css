@@ -1,0 +1,25 @@
+@charset "UTF8";
+body{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  height: 100%;
+  background-image: linear-gradient(to right, #d5653c,#e5a237 );
+}
+main{
+  background-color: aliceblue;
+  border-radius: 10px;
+  width: 600px;
+  padding: 10px;
+  margin: auto;
+  box-shadow: 12px 12px 12px #2a8791b0;
+}
+h1{
+  color: chocolate;
+  text-align: center;
+  text-shadow: 1px 3px 3px rgb(239, 95, 11);
+}
+h2{
+  color: #A62B1F;
+}
+  p{
+    text-align: justify;
+  }

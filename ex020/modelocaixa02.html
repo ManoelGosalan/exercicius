@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grouping Tags</title>
+    <style>
+      body {
+        background-color: rgba(0, 0, 0, 0.587);
+        margin: 0px;
+      }
+      header {
+        background-color: aliceblue;
+        padding: 10px;
+        margin: 10px;
+      }
+      main {
+        background-color: aliceblue;
+        margin: 10px;
+        padding: 2px;
+      }
+      nav {
+        background-color: rgba(0, 0, 0, 0.42);
+      }
+      nav > a {
+        background-color: rgba(41, 60, 60, 0.009);
+        text-decoration: none;
+        font-weight: bold;
+        color: white;
+        margin: 30px;
+      }
+      footer {
+        background-color: black;
+        text-align: center;
+        color: azure;
+        padding: 1px;
+        margin: 0px;
+      }
+      article {
+        background-color: rgb(118, 27, 27);
+        padding: 3px;
+      }
+      article > aside {
+        background-color: brown;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Meu Site</h1>
+      <nav>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+      </nav>
+    </header>
+    <main>
+      <section id="assuntos"></section>
+      <section id="noticias">
+        <article>
+          <h2>Noticias do Brasil</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat
+            eos, accusantium dolorem nulla consectetur voluptatum ipsa animi
+            architecto, corrupti suscipit odit quia, maxime iure explicabo
+            repellat fuga adipisci rem! Numquam.
+          </p>
+        </article>
+        <article>
+          <aside>
+            <p>artigo escrito pro Manoel Lidio</p>
+          </aside>
+      </article>
+      </section>
+    </main>
+    <footer>
+      <p>Desenvolvido Por MIM</p>
+    </footer>
+  </body>
+</html>

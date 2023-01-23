@@ -1,0 +1,55 @@
+@font-face {
+  font-family: Cent;
+  src: url(../fonts/celta.otf);
+}
+
+@font-face {
+  font-family: demo;
+  src: url(../fonts/Sketch\ Gothic\ School.ttf);
+}
+
+body {
+  background-color: #faaf0048;
+}
+
+h1 {
+  color: rgb(0, 0, 255);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2.3em;
+}
+
+h1#Principal {
+  background-color: rgba(0, 0, 0, 0.379);
+  color: rgb(29, 8, 253);
+  font-family: "Cent", centurion, serif;
+  font-weight: normal;
+  font-size: 2.9em;
+  text-align: center;
+}
+
+h2 {
+  color: rgba(15, 89, 251, 0.804);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+  color: rgb(4, 0, 58);
+  text-align: justify;
+  text-indent: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.basico{
+color: rgb(234, 72, 3);
+}
+.intemediario{
+color: aqua;
+}
+.avançado{
+color: black;
+font-weight: 1,500;
+font-style: inherit;
+text-shadow: 1px 3px 3px rgb(1, 103, 236);
+}
+.destaque{
+  background-color: #faaf007c;
+}
