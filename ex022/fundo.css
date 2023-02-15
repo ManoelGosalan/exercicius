@@ -14,7 +14,7 @@ body{
 
 }
 #qd2{
-    background-image: linear-gradient(to bottom, blue, black);
+    background-image: linear-gradient(to bottom, blue, green , yellow);
 }
 #qd3{
     background-image: url(image/pattern001.png);
